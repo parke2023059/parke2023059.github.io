@@ -1,0 +1,35 @@
+head{
+  text-align: center;
+  color: red;
+  background-color: black
+}
+h1{
+  text-align: center;
+  color: red;
+  border: 2px;
+  border-color: #aa5f4b;
+  border-style: solid;
+}
+.Heading2{
+  margin-top: 10px;
+  margin-right: 1600px;
+  border: 5px;
+  border-color: #de504b;
+  text-align: left;
+  color: cyan;
+  border-style: groove;
+  border-radius: 5px;
+}
+.Heading3{
+  text-align:center;
+  border: 5px;
+  color: tan;
+  border-style: dotted;
+  border-radius: 100px;
+  margin-right: 350px;
+  margin-left: 350px;
+}
+body{
+  color: blue;
+  text-align: center;
+}

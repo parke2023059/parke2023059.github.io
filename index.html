@@ -12,16 +12,38 @@
       <p><a href="https://github.com/parke2023059/Wunderbar-Company">This is the WunderBar-Company</a></p>
       <p><a href="https://github.com/parke2023059/newsiteproposal">This is the new site that is in the making for York Tech</a></p>
     </div>
+
+
+
     <div class="Heading3">
         <h2>About me</h2>
         <p>Works well in teams, created a program that downloads and installs personal main projects, capable of making a javascript website, and is fluent in javascript, HTML, and python.</p>
     </div>
-      <img id="demo" src="https://dmarket.com/blog/how-to-play-engineer-in-tf2/1_hu162c80087f039df7c83b94d465b144a9_210716_675x0_resize_q100_lanczos.jpg" alt="" width="200" height="100"</img>
-    <script type="text/javascript">
-      function myFunction(){
-        document.getElementById("demo").visibility:visible;
-      }
-    </script>
-    <button type="button" onclick="myFunction()">Click me</button>
+
+
+
+
+    <img id="image" src= "pic.jpg"/>
+
+       <button type="button"
+           onclick="show()" id="btnID">
+           Show Image
+       </button>
+
+       <script>
+           function show() {
+
+               /* Access image by id and change
+               the display property to block*/
+               document.getElementById('image').style.display = "block";
+
+
+               document.getElementById('btnID').style.display = "none";
+
+           }
+       </script>
+
+
+
   </body>
 </html>

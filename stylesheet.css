@@ -1,7 +1,7 @@
+
 head{
   text-align: center;
   color: red;
-  background-color: black
 }
 h1{
   text-align: center;
@@ -19,6 +19,7 @@ h1{
   color: cyan;
   border-style: groove;
   border-radius: 5px;
+  min-width: 20%
 }
 .Heading3{
   text-align:center;
@@ -32,7 +33,4 @@ h1{
 body{
   color: blue;
   text-align: center;
-}
-img{
-  visibility: hidden;
 }

@@ -16,12 +16,15 @@
         <h2>About me</h2>
         <p>Works well in teams, created a program that downloads and installs personal main projects, capable of making a javascript website, and is fluent in javascript, HTML, and python.</p>
     </div>
-      <img id="demo" src="https://dmarket.com/blog/how-to-play-engineer-in-tf2/1_hu162c80087f039df7c83b94d465b144a9_210716_675x0_resize_q100_lanczos.jpg" alt="" width="200" height="100"</img>
+    <audio src="Music.mp3" id="myVideo">
+      controls
+    </audio>
     <script type="text/javascript">
-      function myFunction(){
-        document.getElementById("demo").visibility:visible;
-      }
+      var mysound = document.getElementById("myVideo")
+      function playVid(){
+      mysound.play();
+    }
     </script>
-    <button type="button" onclick="myFunction()">Click me</button>
+    <button type="button" onclick="playVid()">Click me to play video</button>
   </body>
 </html>
